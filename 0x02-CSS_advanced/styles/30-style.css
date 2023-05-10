@@ -374,13 +374,13 @@ ul .row {
   position: relative;
 }
 
-.card-work .card-title > a {
+.card-work .card-title a {
   display: block;
   text-decoration: none;
   padding: 45%;
 }
 
-.card-work .card-title > a::after {
+.card-work .card-title a::after {
   position: absolute;
   top: 0;
   right: 0;
@@ -389,6 +389,6 @@ ul .row {
   content: "";
 }
 
-.card-work .card-title > a:hover {
+.card-work .card-title a:hover {
   opacity: 1;
 }
